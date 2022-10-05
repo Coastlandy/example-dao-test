@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Vault {
+contract DAO {
     mapping(address => uint256) public balances;
 
     function balanceOf(address _who) public view returns (uint256 balance) {
